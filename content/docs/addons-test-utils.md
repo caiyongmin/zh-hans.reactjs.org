@@ -210,7 +210,7 @@ findRenderedDOMComponentWithClass(
 )
 ```
 
-功能类似于 [`scryRenderedDOMComponentsWithClass()`](#scryrendereddomcomponentswithclass)，但是预计只有一个结果，然后返回这个结果，如果除了一个匹配项之外还有其他匹配项，则抛出异常。
+用法与 [`scryRenderedDOMComponentsWithClass()`](#scryrendereddomcomponentswithclass) 保持一致，但希望仅返回一个结果。不符合预期的情况下会抛出异常。
 
 * * *
 
@@ -236,7 +236,7 @@ findRenderedDOMComponentWithTag(
 )
 ```
 
-功能类似于 [`scryRenderedDOMComponentsWithTag()`](#scryrendereddomcomponentswithtag)，但是预计只有一个结果，然后返回这个结果，如果除了一个匹配项之外还有其他匹配项，则抛出异常。
+用法与 [`scryRenderedDOMComponentsWithTag()`](#scryrendereddomcomponentswithtag) 保持一致，但希望仅返回一个结果。不符合预期的情况下会抛出异常。
 
 * * *
 
@@ -262,7 +262,7 @@ findRenderedComponentWithType(
 )
 ```
 
-功能类似于 [`scryRenderedComponentsWithType()`](#scryrenderedcomponentswithtype)，但是预计只有一个结果，然后返回这个结果，如果除了一个匹配项之外还有其他匹配项，则抛出异常。
+用法与 [`scryRenderedComponentsWithType()`](#scryrenderedcomponentswithtype) 保持一致，但希望仅返回一个结果。不符合预期的情况下会抛出异常。
 
 * * *
 
